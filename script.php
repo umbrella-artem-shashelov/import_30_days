@@ -333,7 +333,7 @@ class IMPORT_30_DAYS
 
     
     private function write( $text ) {
-        $now = new \DateTime();
+        $now = new DateTime();
         echo $now->format("Y-m-d H:i:s") . " : $text\n";
     }
 }
